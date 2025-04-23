@@ -1,0 +1,103 @@
+body{
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.lista_sites > li{
+    list-style: none;
+}
+
+.btn_navegacao {
+    padding: 4px;
+    background-color: rgb(171, 171, 171);
+    border-radius: 4px;
+    color: rgb(72, 0, 139);
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.btn_navegacao:hover{
+    color: rgb(171, 171, 171);
+    background-color: rgb(72, 0, 139);
+}
+
+.lista_sites {
+    display: flex;
+    gap: 24px;
+    font-weight: bold;
+    
+
+}
+.botao{
+    margin-bottom: 20px;
+}
+.descricao{
+    background-color: rgb(72, 0, 139);
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    margin-top: 100px;
+    color: rgb(231, 100, 216);
+}
+
+.btn_flutuante_voltar {
+    position:fixed; 
+    left: 16px; 
+    bottom: 16px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.tabela{
+    border-collapse: collapse;
+    margin: 8px;
+}
+header{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(171, 171, 171);
+    position: sticky;
+    top: 0;
+}
+.tbl_galeria{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20%;
+    padding: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(72, 0, 139);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(231, 100, 216);
+    border-radius: 32px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.pagina_inicial{
+    width: 60vw;
+    margin-top: 20px;
+    margin-left: 20%;
+    padding: 8px;
+    background-color: rgb(72, 0, 139);
+    color: rgb(231, 100, 216);
+    align-items: center;
+    display: grid;
+    place-items: center;
+    border-radius: 32px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    cursor: pointer;
+}
+p{
+    margin: 8px;
+}
+
+img{
+    border-radius: 16px;
+}
